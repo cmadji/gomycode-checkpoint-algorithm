@@ -1,0 +1,11 @@
+ALGORITHM length_of_sentence
+VAR
+    sentence:STRING;
+    i:INTEGER:=0;
+BEGIN
+  
+    Read(sentence)
+    i:=sentence.length;
+    Write(i)
+    
+END

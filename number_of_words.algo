@@ -1,0 +1,15 @@
+ALGORITHM number_of_words
+VAR
+    sentence:STRING;
+    i:INTEGER;
+    number:INTEGER:=0;
+    
+BEGIN
+    Read(sentence)
+    FOR i FROM 0 TO sentence.length STEP  DO
+        IF ((sentence[i]=' ') or (sentence[i]='.')) THEN
+            n:=n+1;
+        END_IF   
+    END_FOR
+    Write(n)
+END
